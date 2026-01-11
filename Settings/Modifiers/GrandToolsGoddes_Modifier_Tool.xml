@@ -1,0 +1,17 @@
+<ModifierDefs><List>
+<Modifier Name="Modifier_Item_SP_Clothes01000U1" Type="Normal">
+		<DisplayName>Jubah1</DisplayName>	
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Barrier" LevelOver="1"/>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Fabao" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="15"/>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>
