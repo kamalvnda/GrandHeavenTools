@@ -1,0 +1,110 @@
+﻿<Esotericas><List>
+	<!--<Esoterica Name="DanFang_TongYong">
+		<DisplayName>Essentials of True Elixir</DisplayName>
+		<Desc>Sebuah buku yang mencatat metode-metode alkimia umum di dunia kultivasi.</Desc>
+		<Element>Jin</Element>
+		<Exp>123</Exp>
+		<EffectDesc>Berbagai fungsi canggih</EffectDesc>
+		<Skills>
+			<li>TSkillSkill</li>
+		</Skills>
+		<Dans>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+		</Dans>
+		<Places>
+			<li>Place_KunLun1</li>
+		</Places>
+		<Secrets>
+			<li>4</li>
+		</Secrets>
+		<Flags></Flags>
+		<Modifier>Dissatisfaction</Modifier>	
+	</Esoterica> -->
+	
+	<Esoterica Name="GrandAlkimia_DanFang_1">
+		<DisplayName>Resep GrandAlkimia</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>Catatan Alkimia Dari Sesepuh Alkimia Bintang 10.</Desc>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>Pelajari Semua Elixir.</EffectDesc>
+		<Dans>
+        <li>Dan_Earth_LingZhi</li>
+        <li>Dan_Spring_LingZhi</li>
+        <li>Dan_QiZhi</li>
+        <li>Dan_Winter_LingZhi</li>
+        <li>Dan_Fall_LingZhi</li>
+        <li>Dan_FengDan1</li>
+        <li>Dan_LongDan1</li>
+        <li>Dan_Summer_LingZhi</li>
+        <li>Dan_Soul4</li>
+        <li>Dan_FaceLock3</li>
+        <li>Dan_FaceLock</li>
+        <li>Dan_FiveBaseFromLife</li>
+        <li>Dan_TreeEXP</li>
+        <li>Dan_FaceUnLock</li>
+        <li>Dan_Soul1</li>
+        <li>Dan_LingYuanZhong</li>
+        <li>Dan_LingYuanSha</li>
+        <li>Dan_Soul2</li>
+        <li>Dan_FaceLock1</li>
+        <li>Dan_Thin</li>
+        <li>Dan_Fat</li>
+        <li>Dan_FaceLock2</li>
+        <li>Dan_Soul3</li>
+        <li>Dan_ZhuLongDan1</li>
+        <li>Dan_FiveBase5</li>
+        <li>Dan_FiveBase1</li>
+        <li>Dan_IncreaseNeckCountdown2</li>
+        <li>Dan_IncreaseLife3</li>
+        <li>Dan_LostSoul</li>
+        <li>Dan_HundredRefine</li>
+        <li>Dan_ExtremeLofty</li>
+        <li>Dan_NoHunger2</li>
+        <li>Dan_IncreaseLife2</li>
+        <li>Dan_IncreaseNeckCountdown1</li>
+        <li>Dan_Ling3</li>
+        <li>Dan_FiveBase4</li>
+        <li>Dan_FiveBase3</li>
+        <li>Dan_Defense</li>
+        <li>Dan_IncreaseLife5</li>
+        <li>Dan_IncreaseLife1</li>
+        <li>Dan_NoHunger</li>
+        <li>Dan_Restore</li>
+        <li>Dan_CureFiveElementDamage</li>
+        <li>Dan_Happiness</li>
+        <li>Dan_CalmDown</li>
+        <li>Dan_IncreaseLife4</li>
+        <li>Dan_SwordBall</li>
+        <li>Dan_FiveBase2</li>
+        <li>Dan_CureMuDamage</li>
+        <li>Dan_PracticeSpeed</li>
+        <li>Dan_Ling</li>
+        <li>LingCrystal</li>
+        <li>Dan_ReBorn_4</li>
+        <li>Dan_ReBorn</li>
+        <li>Dan_JingYuan</li>
+        <li>Dan_WuLingSan</li>
+        <li>Dan_DredgeQi1</li>
+        <li>Dan_CureShuiDamage</li>
+        <li>Dan_CureHuoDamage</li>
+        <li>Dan_DredgeQi</li>
+        <li>Dan_Ling2</li>
+        <li>Dan_JingYuan2</li>
+        <li>BasePracticeDrug</li>
+        <li>Dan_NoHunger1</li>
+        <li>Dan_JingYuan3</li>
+        <li>Dan_PracticeRate</li>
+        <li>Dan_CureJinDamage</li>
+        <li>Dan_CureTuDamage</li>
+        <li>Dan_WuQiNoHunger2</li>
+        <li>Dan_SanHuaHuangJing</li>
+      </Dans>
+	</Esoterica> 
+</List></Esotericas>
