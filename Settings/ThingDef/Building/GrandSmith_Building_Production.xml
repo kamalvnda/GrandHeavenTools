@@ -1,0 +1,106 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Building" Name="GrandSmith" Parent="ProductionBase">	
+	<ThingName>GrandSmith</ThingName>
+	<Frags>		
+		<li Frag="HearTrain" />
+	</Frags>
+	<Desc>Tempat Berbagai Macam Senjata GrandHeavens Yang Dapat Dibuat.</Desc>
+	<TexPath>res/Sprs/buildingnew/building_Smithstation1a</TexPath>
+	<TexScale>0.7</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<Beauty>5</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[1,1],
+		[1,7],
+		</Data>
+		<OffsetGroup>
+			<li><x>0.5</x><y>-0.3</y></li>
+			<li><x>-0.42</x><y>-0.24</y></li>
+			<li><x>-0.46</x><y>1.17</y></li>
+			<li><x>0.41</x><y>0.71</y></li>
+		</OffsetGroup>
+		
+		<WorkOffset>
+			<li Index="0" X="0" Y="0" Ang="1" Dir="Down"/>
+			<li Index="0" X="-0.28" Y="0.4" Ang="1" Dir="Left"/>
+			<li Index="0" X="0.34" Y="0.1" Ang="1" Dir="Up"/>
+			<li Index="0" X="0.3" Y="-0.56" Ang="1" Dir="Right"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<Orientation>F,B,R</Orientation>
+		<BePackage>1</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>iron</WorkAnimation>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+			</CostItems>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.03</x>
+			<y>4.04</y>
+			<z>1</z>
+		</SnowRenderData>
+		<Drive>
+			<StuffCategories>
+				<Stuff name = "Wood"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<DrivingTexPath>res/Sprs/buildingnew/building_Smithstation1b</DrivingTexPath>
+			<CostStuffCount>1</CostStuffCount>
+			<Duration>0.05</Duration>
+			<DriveJustProdece>1</DriveJustProdece>
+			<RateMin>0</RateMin>
+			<RateMax>3</RateMax>
+		</Drive>
+		<ProducePriority>1</ProducePriority>
+		<ProduceKind>Smithing</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_SwiftsteelBlade</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_LongreachHuntingBow</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_DeepfangSpear</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_BonecrushMace</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_RazorboundChakram</ThingDef>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>8</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	</ThingDef>
+</List></ThingDefs>
