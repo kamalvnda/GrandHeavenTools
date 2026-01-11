@@ -1,0 +1,21 @@
+<Esotericas>
+  <List>
+
+	<Esoterica Name="Gongtianming_LvUpEsoterica_17">
+		<DisplayName>Secret Treasure: Soul Flag</DisplayName>
+		<Hide>2</Hide>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>Catatan harta rahasia: Pembuatan Bendera 1Miliar Jiwa.</Desc>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Akuisisi harta karun rahasia: \nBendera Jiwa[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_HuoFabaoUJI</li>
+		</Fabaos>
+	</Esoterica> 
+	
+	
+	
+</List>
+</Esotericas>
