@@ -1,0 +1,86 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_LingStone" Parent="RockBase">
+	<TexPath>res\Sprs\object\object_lingshi01</TexPath>
+	<ThingName>Spirit Stone</ThingName>	
+	<Desc>Padatan terbentuk oleh kondensasi Qi yang sangat terkonsentrasi. Mengkonsumsinya memulihkan 500 Qi, dan meningkatkan Afinitas Qi Anda untuk jangka waktu tertentu.</Desc>
+	<Rate>6</Rate>
+	<Beauty>10</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Tags>
+		<Tag Name="Dan_LingStone" Level="1"/>
+	</Tags>
+	<Item Lable="LingStone">
+		<Prices>
+			<TalkType>2</TalkType>
+			<BaseCount>500</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="1"/>
+				<SalePrice Value="1" />
+				<Fix>1</Fix>
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="1" />
+				<SalePrice Value="1" />
+				<Fix>1</Fix>
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="1" />
+				<SalePrice Value="1" />
+				<Fix>1</Fix>
+			</li>
+		</Prices>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>Hard1</li>
+		</PhysicalLables>
+		<BeMaterial>
+				<NamePrefix>Spirit Stone</NamePrefix>
+				<CostMultiplier>1</CostMultiplier>
+				
+				<RateWhenBeMain>6</RateWhenBeMain>
+				<WorkSpeedCoefficientWhenBeMain>1.4</WorkSpeedCoefficientWhenBeMain>
+			
+				<BeautyWhenBeMain>8</BeautyWhenBeMain>
+				<ElementPowerWhenBeMain>0</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>5</WorkToMake>
+			<CostItems>
+				<Item name = "Item_LingStone" count = "1"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>500</Ling>
+			<Modifier>Dan_LingStone</Modifier>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>1</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>30</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>358BA7FF</Color>
+	</Light>
+	</ThingDef>
+
+</List></ThingDefs>
