@@ -1,0 +1,107 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Building" Name="GrandOre" Parent="ProductionBase">	
+	<ThingName>GrandOre</ThingName>
+	<Frags>		
+		<li Frag="HearTrain" />
+	</Frags>
+	<Desc>Tempat Berbagai Macam Stone/Ore GrandHeavens Yang Dapat Dibuat.</Desc>
+	<TexPath>res/Sprs/buildingnew/building_forge1a</TexPath>
+	<TexScale>1</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<Beauty>5</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+			[1,1],
+			[1,3],
+			[4,0],
+		</Data>
+		<OffsetGroup>
+			<li><x>0.5</x><y>-0.21</y></li>
+			<li><x>-0.5</x><y>-0.22</y></li>
+			<li><x>-0.5</x><y>0.78</y></li>
+			<li><x>0.5</x><y>0.84</y></li>
+		</OffsetGroup>
+		<WorkOffset>
+			<li Index="0" X="0.5" Y="0.5" Ang="1" Dir="Down"/>
+			<li Index="0" X="0.34" Y="-1" Ang="1" Dir="Left"/>
+			<li Index="0" X="-0.5" Y="-0.7" Ang="1" Dir="Up"/>
+			<li Index="0" X="-0.34" Y="0.2" Ang="1" Dir="Right"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<Orientation>F,B,R</Orientation>
+		<SelectProduceStuff>0</SelectProduceStuff>
+		<BePackage>1</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>assemble</WorkAnimation>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.15</y>
+			<z>1</z>
+		</SnowRenderData>
+		<Drive>
+			<StuffCategories>
+				<Stuff name = "Wood"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<DrivingTexPath>res/Sprs/buildingnew/building_forge1b</DrivingTexPath>
+			<CostStuffCount>1</CostStuffCount>
+			<Duration>0.05</Duration>
+			<DriveJustProdece>1</DriveJustProdece>
+			<RateMin>0</RateMin>
+			<RateMax>3</RateMax>
+		</Drive>
+		<ProduceKind>Smithing</ProduceKind>
+		<ProduceKind>StoneWork</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_IronRock</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_CopperRock</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_SilverBlock</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_SilverRock</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_DarksteelRock</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_StarEssence</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_LingStone</ThingDef>
+				<Count>100</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>8</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	</ThingDef>
+</List></ThingDefs>
