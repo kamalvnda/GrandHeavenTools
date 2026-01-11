@@ -1,0 +1,65 @@
+﻿<Esotericas><List>
+	<!--<Esoterica Name="DanFang_TongYong">
+		<DisplayName>Essentials of True Elixir</DisplayName>
+		<Desc>Sebuah buku yang mencatat metode-metode alkimia umum di dunia kultivasi.</Desc>
+		<Element>Jin</Element>
+		<Exp>123</Exp>
+		<EffectDesc>Berbagai fungsi canggih</EffectDesc>
+		<Skills>
+			<li>TSkillSkill</li>
+		</Skills>
+		<Dans>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+		</Dans>
+		<Places>
+			<li>Place_KunLun1</li>
+		</Places>
+		<Secrets>
+			<li>4</li>
+		</Secrets>
+		<Flags></Flags>
+		<Modifier>Dissatisfaction</Modifier>	
+	</Esoterica> -->
+	
+	<Esoterica Name="GrandTools_DanFang_1">
+		<DisplayName>Resep Alkimia GrandHeavens</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>Catatan Alkimia Dari Sesepuh Alkimia almostHeaven.</Desc>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>Pelajari Semua Elixir.</EffectDesc>
+		<Dans>
+        <li>Dan_HeavenflowElixir</li>
+        <li>Dan_HeavenboundRevivalPill</li>
+        <li>Dan_CelestialQiSurgePowder</li>
+        <li>Dan_CelestialQiSurgePowderV2</li>
+        <li>Dan_CelestialQiSurgePowderV3</li>
+        <li>Dan_CelestialQiSurgePowderV4</li>
+        <li>Dan_CelestialQiSurgePowderV5</li>
+        <li>Dan_CelestialQiSurgePowderV6</li>
+        <li>Dan_VitalResinEssencePowder</li>
+        <li>Dan_Mind-CleansingPurityPill</li>
+        <li>Dan_DilutedMindResinPowder</li>
+        <li>Dan_CondensedNutrientPill</li>
+        <li>Dan_Soul-AnchorAscensionPill</li>
+        <li>Dan_SpiritCoreExpansionPill</li>
+        <li>Dan_RealmInsightInnerPill</li>
+        <li>Modifier_VitalBloomEssence</li>
+        <li>Modifier_Item_GoldenSustenanceFruit</li>
+        <li>Modifier_Item_TerrafluxVitalCream</li>
+        <li>Modifier_Item_SereneSpiritLeaf</li>
+        <li>Dan_BlissfogTranquilityPill</li>
+        <li>Dan_InsightCatalystPill</li>
+        <li>Dan_QiSustenancePill</li>
+        <li>Dan_QiCirculationPill</li>
+        <li>Dan_FivefoldAscensionPill</li>
+        <li>Dan_SoulforgeReconstitutionPill</li>
+      </Dans>
+	</Esoterica> 
+</List></Esotericas>
