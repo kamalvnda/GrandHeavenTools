@@ -1,0 +1,74 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Building" Name="GrandWood" Parent="ProductionBase">	
+	<ThingName>GrandWood</ThingName>
+	<Frags>		
+		<li Frag="HearTrain" />
+	</Frags>
+	<Desc>Tempat Berbagai Macam Kayu GrandHeavens Yang Dapat Dibuat.</Desc>
+	<TexScale>0.75</TexScale>
+	<TexPath>res/Sprs/buildingnew/building_firewoodplace1a</TexPath>
+	<BlockLight>0</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<Beauty>5</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+			[3,1],
+			[4,0],
+		</Data>
+		<OffsetGroup>
+			<li><x>-0.38</x><y>0.4</y></li>
+			<li><x>0.59</x><y>0.48</y></li>
+			<li><x>0.5</x><y>0.5</y></li>
+			<li><x>-0.58</x><y>-0.42</y></li>
+		</OffsetGroup>
+		<WorkOffset>
+			<li Index="0" X="0.114" Y="0.535" Ang="25" Dir="Down"/>
+			<li Index="0" X="0.215" Y="-0.68" Ang="1" Dir="Left"/>
+			<li Index="0" X="-0.36" Y="-0.54" Ang="1" Dir="Up"/>
+			<li Index="0" X="-0.22" Y="0.3" Ang="1" Dir="Right"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<BePackage>1</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>firewood2</WorkAnimation>
+		<WorkTexPath>res/Sprs/buildingnew/building_firewoodplace1b</WorkTexPath>
+		<Orientation>F,B,R</Orientation>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.05</x>
+			<y>3.76</y>
+			<z>1</z>
+		</SnowRenderData>
+		<ProduceKind>CutWood</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_Wood</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_HardWood</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_ParasolWood</ThingDef>
+				<Count>100</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_LingWood</ThingDef>
+				<Count>100</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	</ThingDef>
+</List></ThingDefs>
