@@ -1,0 +1,194 @@
+﻿<ThingDefs><List>
+		<ThingDef Type="Building" Name="GrandElixir" Parent="ProductionBase">	
+	<ThingName>GrandElixir</ThingName>	
+	<Frags>		
+		<li Frag="HearHeartBeat" />
+	</Frags>
+	<Desc>Tempat Berbagai Macam Pill/Elixir GrandHeavens Yang Dapat Dibuat.</Desc>
+	<TexPath>res/Sprs/buildingnew/building_PharmacyPlace1a</TexPath>
+	<TexScale>0.65</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<Beauty>5</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+			[1,3],
+			[4,0]
+		</Data>
+		<OffsetGroup>
+			<li><x>0.47</x><y>0.56</y></li>
+			<li><x>0.38</x><y>-0.36</y></li>
+			<li><x>-0.5</x><y>0.5</y></li>
+			<li><x>-0.41</x><y>0.65</y></li>
+		</OffsetGroup>
+		<WorkOffset>
+			<li Index="0" X="0.45" Y="0.54" Ang="1" Dir="Down"/>
+			<li Index="0" X="0.2" Y="-0.8" Ang="1" Dir="Left"/>
+			<li Index="0" X="-0.54" Y="-0.5" Ang="1" Dir="Up"/>
+			<li Index="0" X="-0.3" Y="0.4" Ang="1" Dir="Right"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<Orientation>F,B,R</Orientation>
+		<BePackage>1</BePackage>
+		<SelectProduceStuff>0</SelectProduceStuff>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>produce</WorkAnimation>
+		<BeMade>
+			<WorkToMake>120</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>3.68</y>
+			<z>1</z>
+		</SnowRenderData>
+		<ProduceKind>DrugProduct</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_Dan_HeavenflowElixir</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_HeavenboundRevivalPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_CelestialQiSurgePowderV6</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_CelestialQiSurgePowder</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_CelestialQiSurgePowderV2</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_CelestialQiSurgePowderV3</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_CelestialQiSurgePowderV4</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_CelestialQiSurgePowderV5</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_VitalResinEssencePowder</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_Mind-CleansingPurityPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_DilutedMindResinPowder</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_EurekaInsightPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_CondensedNutrientPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_Soul-AnchorAscensionPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_SpiritCoreExpansionPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_RealmInsightInnerPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_SpiritualResinEssence</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_VitalBloomEssence</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_GoldenSustenanceFruit</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_TerrafluxVitalCream</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_SereneSpiritLeaf</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_BlissfogTranquilityPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_InsightCatalystPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_FivefoldMeridianRemedyPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_QiSustenancePill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_QiCirculationPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_FivefoldAscensionPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	</ThingDef>
+</List></ThingDefs>
