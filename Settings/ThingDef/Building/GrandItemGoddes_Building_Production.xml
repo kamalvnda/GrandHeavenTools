@@ -1,0 +1,74 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Building" Name="GrandItemGoddes" Parent="ProductionBase">	
+	<ThingName>GrandItemGoddes</ThingName>	
+	<Frags>		
+		<li Frag="HearHeartBeat" />
+	</Frags>
+	<Desc>Tempat Berbagai Macam Item yang diCiptakan Oleh Divine Goddes Kimi,Yang Dapat Dibuat.</Desc>
+	<TexPath>res/Sprs/buildingnew/building_PharmacyPlace1a</TexPath>
+	<TexScale>0.65</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<Beauty>5</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+			[1,3],
+			[4,0]
+		</Data>
+		<OffsetGroup>
+			<li><x>0.47</x><y>0.56</y></li>
+			<li><x>0.38</x><y>-0.36</y></li>
+			<li><x>-0.5</x><y>0.5</y></li>
+			<li><x>-0.41</x><y>0.65</y></li>
+		</OffsetGroup>
+		<WorkOffset>
+			<li Index="0" X="0.45" Y="0.54" Ang="1" Dir="Down"/>
+			<li Index="0" X="0.2" Y="-0.8" Ang="1" Dir="Left"/>
+			<li Index="0" X="-0.54" Y="-0.5" Ang="1" Dir="Up"/>
+			<li Index="0" X="-0.3" Y="0.4" Ang="1" Dir="Right"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<Orientation>F,B,R</Orientation>
+		<BePackage>1</BePackage>
+		<SelectProduceStuff>0</SelectProduceStuff>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>produce</WorkAnimation>
+		<BeMade>
+			<WorkToMake>120</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>3.68</y>
+			<z>1</z>
+		</SnowRenderData>
+		<ProduceKind>DrugProduct</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_YaoLeather101U01</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_BeefUJI01</ThingDef>
+				<Count>500</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Flour</ThingDef>
+				<Count>1000</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	</ThingDef>
+</List></ThingDefs>
