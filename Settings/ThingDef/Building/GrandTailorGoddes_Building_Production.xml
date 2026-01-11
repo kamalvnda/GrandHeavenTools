@@ -1,0 +1,116 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Building" Name="GrandTailorGoddes" Parent="ProductionBase">	
+	<ThingName>GrandTailorGoddes</ThingName>
+	<Frags>		
+		<li Frag="HearTrain" />
+	</Frags>
+	<Desc>Tempat Berbagai Macam Pakaian yang diCiptakan oleh Divine Goddes Kimi, Yang Dapat Dibuat.</Desc>
+	<TexPath>res/Sprs/buildingnew/building_tailorplace1a</TexPath>
+	<TexScale>0.67</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<Beauty>5</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+			[1,3],
+			[0,4],
+		</Data>
+		<OffsetGroup>
+			<li><x>0.45</x><y>0.55</y></li>
+			<li><x>0.33</x><y>-0.17</y></li>
+			<li><x>-0.52</x><y>0.68</y></li>
+			<li><x>-0.31</x><y>0.85</y></li>
+		</OffsetGroup>
+		<WorkOffset>
+			<li Index="0" X="-0.55" Y="0.55" Ang="1" Dir="Down"/>
+			<li Index="0" X="0.3" Y="0.4" Ang="1" Dir="Left"/>
+			<li Index="0" X="0.5" Y="-0.55" Ang="1" Dir="Up"/>
+			<li Index="0" X="-0.25" Y="-0.55" Ang="1" Dir="Right"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<WorkTexPath>res/Sprs/buildingnew/building_tailorplace1b</WorkTexPath>
+		<Orientation>F,B,R</Orientation>
+		<BePackage>1</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>assemble</WorkAnimation>
+		<BeMade>
+			<WorkToMake>150</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+			</CostItems>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.74</x>
+			<y>3.87</y>
+			<z>1</z>
+		</SnowRenderData>
+		<ProducePriority>1</ProducePriority>
+		<ProduceKind>Sew</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_PracticeClothes089281</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_SP_Clothes01U02</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_SP_Clothes01U03</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_SP_Trousers1U01</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_SP_Trousers1U02</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_Cape_Nomal1U01</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_Cape_Nomal2U01</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_Cape_Nomal3U01</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_Cape_Nomal4U01</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_Cape_Sp2U3</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_Cape_Sp3U3</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_Cape_Sp8U3</ThingDef>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_Cape_Sp9U3</ThingDef>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	</ThingDef>
+</List></ThingDefs>
