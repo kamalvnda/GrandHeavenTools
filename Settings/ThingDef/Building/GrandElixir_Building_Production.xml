@@ -188,6 +188,11 @@
 				<ThingDef>Item_Dan_FivefoldAscensionPill</ThingDef>
 				<Count>3</Count>
 			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_Dan_GrandRefinementCatalystPill</ThingDef>
+				<Count>3</Count>
+			</Produce>
 		</Produces>
 	</Building>
 	</ThingDef>
