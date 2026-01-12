@@ -1022,4 +1022,62 @@
 			<Color>FFFFFFFF</Color>
 		</Light>
 	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_GrandRefinementCatalystPill" Parent="DanLightBase">
+		<ThingName>Grand Refinement Catalyst Pill</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao04</TexPath>
+		<Desc>Pil katalis tingkat tinggi yang meningkatkan kecepatan Remold serta efisiensi dalam berbagai aktivitas, sekaligus menaikkan kualitas item yang dihasilkan. Efek ini berlangsung selama 28 Hari.</Desc>		
+		<Rate>10</Rate>
+		<Beauty>15</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000" FriendPoint="2"/>
+					<SalePrice Value="6000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="50000" />
+					<SalePrice Value="600" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="50000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>250</Ling>
+				<Modifier>Dan_GrandRefinementCatalystPill</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Ling>
+			<AddionLing>90</AddionLing>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>8</Value> 
+		</Element>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>F1FF00FF</Color>
+		</Light>
+	</ThingDef>
 </List></ThingDefs>
