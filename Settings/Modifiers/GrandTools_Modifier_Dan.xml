@@ -229,5 +229,18 @@
       </Skills>
 		<BaseFive>1,1,1,1,1</BaseFive>
 	</Modifier> 
+	<Modifier Name="Dan_GrandRefinementCatalystPill" Type="Normal">
+		<DisplayName>GrandRefinementCatalystPill</DisplayName>
+		<Desc>GrandRefinementCatalystPill: Active</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>16800</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="4"/>
+			<li Name="GlobalEfficiency" AddP="3" AddV="1" BAddP="0" BAddV="3" Type="1" />
+			<li Name="MadeQualityAddValue" AddP="2" AddV="1" BAddP="0" BAddV="5" Type="1" />
+		</Properties>
+	</Modifier> 	
 	
 </List></ModifierDefs>
