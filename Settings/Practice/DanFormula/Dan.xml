@@ -184,5 +184,13 @@
 		<SuccessRate>0.2</SuccessRate>
 		<Count>1</Count>
 	</Dan>
+	<!--RefinePill-->
+	<Dan Name="Dan_GrandRefinementCatalystPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_GrandRefinementCatalystPill</ItemName>
+		<Level>18</Level>
+		<SuccessRate>-0.8</SuccessRate>
+		<Count>1</Count>
+	</Dan>
 	
 </List></DanFormulas>
